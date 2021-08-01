@@ -1,0 +1,48 @@
+body{
+    min-height: 100vh;
+    font-size: 100%;
+}
+
+.meses{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-column-gap: 12px;
+    grid-row-gap: 8px;
+    height: 25rem;
+    margin-top: 8rem;
+}
+
+div{
+    text-align: center;
+}
+
+.day{
+    font-size: 4.5em;
+    color: #96B0C5;
+    border-right: black 2.5px solid;
+    border-bottom: black 2.5px solid;
+    box-shadow: 3px 3px 4px 3px rgba(0,0,0,0.51);
+    z-index: 2;
+    height: 1.4722em;
+    width: 1.7955972em;
+}
+
+.day:hover{
+    border: solid rgb(3, 88, 138) 3px;
+    filter: blur(0.8px);
+}
+
+.week{
+    border: solid black 4px;
+    background-color: rgb(31, 44, 233);
+}
+
+.notes{
+    height: min-content;
+    display: block;
+    width: 8.7em;
+    z-index: 3;
+    margin-top: -6.538em;
+    margin-left: 0.076923em;
+}
